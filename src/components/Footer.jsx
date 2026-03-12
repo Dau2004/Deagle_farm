@@ -1,5 +1,18 @@
 import { Link } from 'react-router-dom'
-import { MapPin, Clock, WhatsApp } from './Icons'
+import { MapPin, Clock, WhatsApp, Facebook, LinkedIn } from './Icons'
+
+const socialLinks = [
+  {
+    href: 'https://www.facebook.com/deagelfarm2026/',
+    label: 'Facebook',
+    Icon: Facebook,
+  },
+  {
+    href: 'https://www.linkedin.com/company/deagle-farm/',
+    label: 'LinkedIn',
+    Icon: LinkedIn,
+  },
+]
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -60,11 +73,40 @@ export default function Footer() {
               <WhatsApp className="w-4 h-4" />
               WhatsApp Us
             </a>
+
+            <div className="flex items-center gap-3 mt-5">
+              {socialLinks.map(({ href, label, Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-9 h-9 rounded-full bg-gray-800 hover:bg-brand flex items-center justify-center text-gray-400 hover:text-white transition-colors"
+                >
+                  <Icon className="w-4 h-4" />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 text-center text-gray-500 text-xs">
-          © {new Date().getFullYear()} Deagle Farm. All rights reserved. · Juba, South Sudan
+        <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-gray-500 text-xs">
+          <span>© {new Date().getFullYear()} Deagle Farm. All rights reserved. · Juba, South Sudan</span>
+          <div className="flex items-center gap-3">
+            {socialLinks.map(({ href, label, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="hover:text-brand transition-colors"
+              >
+                <Icon className="w-4 h-4" />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </footer>
