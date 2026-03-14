@@ -178,8 +178,8 @@ export default function Home() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg h-72 bg-gray-100">
             <img
-              src="https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80"
-              alt="Farm poultry house"
+              src="/Images/The poultry house — clean, ventilated, and well-managed.jpg"
+              alt="The poultry house — clean, ventilated, and well-managed"
               className="w-full h-full object-cover"
             />
           </div>
