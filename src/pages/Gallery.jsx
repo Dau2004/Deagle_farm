@@ -13,11 +13,11 @@ const photos = [
   },
   {
     src: '/Images/A view across the farm land in Juba.jpeg',
-    caption: 'A view across the farm land in Juba',
+    caption: 'A Side view of empty farm land in Juba',
   },
   {
     src: '/Images/Quality checked before every delivery.jpeg',
-    caption: 'Quality checked before every delivery',
+    caption: 'Healthy hens in the poultry house',
   },
 ]
 

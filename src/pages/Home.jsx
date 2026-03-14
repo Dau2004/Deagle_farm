@@ -15,8 +15,8 @@ const slides = [
     alt: 'Fresh egg trays collected daily',
   },
   {
-    src: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?w=1600&q=85',
-    alt: 'Deagle Farm poultry house',
+    src: '/Images/Quality checked before every delivery.jpeg',
+    alt: 'Quality checked before every delivery',
   },
   {
     src: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=1600&q=85',
