@@ -30,7 +30,7 @@ export default function Gallery() {
           <p className="text-brand font-semibold uppercase tracking-widest text-sm mb-2">Gallery</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">The Real Farm</h1>
           <p className="text-gray-300 text-lg">
-            See the operation — no stock photos, no gimmicks. Just Deagle Farm.
+            See the operation. Just Deagle Farm.
           </p>
         </div>
       </section>
