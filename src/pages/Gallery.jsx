@@ -1,28 +1,22 @@
-import { Camera } from '../components/Icons'
-
 const photos = [
   {
-    src: 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80',
-    caption: 'Our flock of 500+ healthy laying hens',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80',
+    src: '/Images/The poultry house — clean, ventilated, and well-managed.jpg',
     caption: 'The poultry house — clean, ventilated, and well-managed',
   },
   {
-    src: 'https://images.unsplash.com/photo-1506434793329-ce9944342e63?w=800&q=80',
+    src: '/Images/Freshly collected eggs ready for traying.jpg',
     caption: 'Freshly collected eggs ready for traying',
   },
   {
-    src: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=800&q=80',
+    src: '/Images/Trays of 30 — packed fresh daily.jpg',
     caption: 'Trays of 30 — packed fresh daily',
   },
   {
-    src: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80',
+    src: '/Images/A view across the farm land in Juba.jpeg',
     caption: 'A view across the farm land in Juba',
   },
   {
-    src: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=800&q=80',
+    src: '/Images/Quality checked before every delivery.jpeg',
     caption: 'Quality checked before every delivery',
   },
 ]
@@ -59,17 +53,6 @@ export default function Gallery() {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Placeholder note */}
-          <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-6 flex items-start gap-4">
-            <div className="w-10 h-10 bg-gray-100 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5">
-              <Camera className="w-5 h-5 text-gray-500" />
-            </div>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              <span className="font-semibold text-gray-800">Real farm photos coming soon.</span>{' '}
-              These are placeholder images — we'll replace them with actual Deagle Farm photography.
-            </p>
           </div>
         </div>
       </section>
