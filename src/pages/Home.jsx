@@ -203,8 +203,11 @@ export default function Home() {
             <div className="p-6 text-left">
               <h3 className="text-2xl font-bold mb-1">Fresh Eggs</h3>
               <p className="text-gray-500 text-sm mb-3">Tray of 30 · Locally raised · Collected daily</p>
-              <p className="text-brand text-xl font-bold mb-4">
-                $3 – $4 <span className="text-gray-400 text-sm font-normal">/ tray</span>
+              <p className="text-brand text-xl font-bold mb-1">
+                26,300 SSP <span className="text-gray-400 text-sm font-normal">/ tray · wholesale</span>
+              </p>
+              <p className="text-gray-600 font-semibold mb-4">
+                30,000 SSP <span className="text-gray-400 text-sm font-normal">/ tray · retail</span>
               </p>
               <a
                 href={WHATSAPP_URL}

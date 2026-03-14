@@ -61,9 +61,15 @@ export default function Products() {
                   </li>
                 ))}
               </ul>
-              <div className="text-3xl font-bold text-brand mb-6">
-                $3 – $4{' '}
-                <span className="text-gray-400 text-base font-normal">/ tray of 30</span>
+              <div className="mb-6">
+                <div className="text-3xl font-bold text-brand">
+                  26,300 SSP{' '}
+                  <span className="text-gray-400 text-base font-normal">/ tray · wholesale</span>
+                </div>
+                <div className="text-xl font-semibold text-gray-600 mt-1">
+                  30,000 SSP{' '}
+                  <span className="text-gray-400 text-base font-normal">/ tray · retail</span>
+                </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"
